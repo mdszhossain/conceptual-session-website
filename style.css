@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container {
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.logo-photo {
+    width: 150px;
+}
+.menus {
+    display: flex;
+}
+.item {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.banner-img {
+    width: 300px;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #121212, #292929);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+.description {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.about-us-heading {
+    font-size: 54px;
+    text-align: center;
+    padding-top: 20px;
+}
+.about-us-content {
+    margin-top: 20px;
+    padding: 25PX;
+}
+.about-us-photo {
+    width: 300px;
+}
+.btn2:hover {
+    color: white;
+    background-color: black;
+}
+.about-us-content {
+    display: flex;
+    justify-content: space-around;
+}
+.about-us-second-heading {
+    font-size: 24px;
+}
+.about-us-description {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn2 {
+    margin-top: 20px;
+}
+.btn3 {
+    padding: 13px 20px;
+    margin-top: 20px;
+}
+.box {
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 100px gray;
+    background-color: rgb(42, 42, 42);
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+}
+.icon {
+    width: 70px;
+}
+
+.web-development {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.service-section {
+    padding: 50px;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #121212, #292929);
+}
+.service-section-heading {
+    color: white;
+}
